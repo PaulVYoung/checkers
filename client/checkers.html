@@ -1,0 +1,17 @@
+<head>
+  <title>Checkers</title>
+</head>
+
+<body>
+  {{> boardArea}}
+</body>
+
+<template name="boardArea">
+  <div class="board-area">
+    {{#constant}}
+    <svg>
+      <g class="pieces"></g>
+    </svg>
+    {{/constant}}
+  </div>
+</template>
